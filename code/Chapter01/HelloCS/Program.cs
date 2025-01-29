@@ -4,5 +4,7 @@ Console.WriteLine("Hello, C#!");
 string name = typeof(Program).Namespace ?? "<null>";
 Console.WriteLine($"Namespace: {name}");
 
-throw new Exception();
+// throw new Exception();
 int z;
+
+Console.WriteLine(format: "Value is {0}.", arg0: 19.8);
